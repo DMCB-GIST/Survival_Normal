@@ -1,4 +1,5 @@
 # Survival_Normal
+This page is made up for results replication of "Transcriptomic data in tumor-adjacent normal tissues harbor prognostic information on multiple cancer types"
 
 ## Usage example
 ```bash
