@@ -1,4 +1,4 @@
-# Survival_Normal
+#
 This page is made up for results replication of **"Transcriptomic data in tumor-adjacent normal tissues harbor prognostic information on multiple cancer types"**
 ![Workflow](https://user-images.githubusercontent.com/79434275/220604215-02a4950e-397f-45b2-8b08-e000c7612b0d.jpg)
 
