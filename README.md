@@ -6,7 +6,7 @@ This page is made up for results replication of **"Transcriptomic data in tumor-
 **paired_normal_Expr.tsv** : RNA-Seq (FPKM-UQ) data for tumor adjacent normal tissues.  
 **paired_tumor_Expr.tsv** : RNA-Seq (FPKM-UQ) data for tumor normal tissues for patients who had adjacent normal tissue data.  
 **DEG_expr_ratio.tsv** : Log fold values for differentially expressed genes (DEGs). Expression values of the individual's own normal tissue were used
-**ratio_by_mean_DEGs.tsv** : Log fold values for differentially expressed genes (DEGs). Medain expression values of patients' normal tissues were used  
+**ratio_by_mean_DEGs.tsv** : Log fold values for DEGs. Medain expression values of patients' normal tissues were used  
 **surv_df.tsv** : Survival times and events
 
 
