@@ -13,9 +13,9 @@ This page is made up for results replication of **"Transcriptomic data in tumor-
 ## Usage example
 ```bash
 cd src_python
-python NN -c KIRC -i paired_normal_Expr.tsv
-python SSVM -c KIRC -i paired_normal_Expr.tsv 
-python NN -c KIRC -i screening/paired_normal_Expr_screen_byRECA.tsv -d 1000
+python NN.py -c KIRC -i paired_normal_Expr.tsv
+python SSVM.py -c KIRC -i paired_normal_Expr.tsv 
+python NN.py -c KIRC -i screening/paired_normal_Expr_screen_byRECA.tsv -d 1000
 ```
 
 ## ICGC dataset for screening (RECA-EU, LIRI-JP)
