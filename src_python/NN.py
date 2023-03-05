@@ -10,6 +10,7 @@ pd.options.mode.chained_assignment = None
 import random
 
 random_seed = 0
+
 torch.manual_seed(random_seed)
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
@@ -33,8 +34,9 @@ feature_num = config.feature
     
 cuda = True if torch.cuda.is_available() else False
 if cuda:
-    device = torch.device(f'cuda:{0}' if torch.cuda.is_available() else 'cpu')
-
+    device = torch.device(f'cuda:{0}')
+else:
+    device = 'cpu'
 ## Loss Function ##
 class PartialNLL(torch.nn.Module):
     def __init__(self):
