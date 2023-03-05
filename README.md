@@ -13,6 +13,7 @@ This page is made up for results replication of **"Transcriptomic data in tumor-
 
 ## Usage example
 ```bash
+pip install -r requirements.txt
 cd src_python
 python NN.py -c KIRC -i paired_normal_Expr.tsv
 python SSVM.py -c KIRC -i paired_normal_Expr.tsv 
